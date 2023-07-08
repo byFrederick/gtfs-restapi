@@ -1,7 +1,7 @@
 import mysql from 'mysql2/promise';
 
 let connection;
-export const getRoutes = async (req, res) => {
+export const getStop_times = async (req, res) => {
     const query = 'SELECT * FROM stop_times';
 
     try {
